@@ -1,0 +1,1 @@
+"use strict";var sec=["sec01","sec02","sec03"],num=sec.length,form=document.getElementsByName("form"),val=document.getElementsByName("input1"),btn=document.getElementById("btn01"),text={txt00:{txt:""},txt01:{txt:""},txt02:{txt:""}},sub=document.getElementById("sub");btn.onclick=function(){for(var t=0;t<num;t++){text["txt0"+t].txt;sub.children[t].innerHTML=val[t].value}};

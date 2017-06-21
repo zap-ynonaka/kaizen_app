@@ -180,3 +180,18 @@ dl.formdetail_:nth-of-type(3) dd p.small_:last-child {
 
 
 
+
+div#wrap {
+    display: flex;
+    padding: 40px;
+}
+
+main#main {
+    width: 70%;
+}
+
+article#sub {
+    flex: 1;
+    border: 1px solid #ddd;
+}
+
